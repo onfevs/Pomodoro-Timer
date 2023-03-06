@@ -1,0 +1,89 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    margin: 50px auto;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #ff9966, #ff5e62);
+    position: relative;
+}
+
+.time-left,
+.time-right {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.time-left {
+    left: 0;
+    transform: skewX(20deg);
+    transform-origin: bottom left;
+}
+
+.time-right {
+    right: 0;
+    transform: skewX(-20deg);
+    transform-origin: bottom right;
+}
+
+.time-left .minutes,
+.time-right .minutes,
+.time-left .seconds,
+.time-right .seconds {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.time-left .minutes,
+.time-right .minutes {
+    color: #ff9966;
+}
+
+.time-left .seconds,
+.time-right .seconds {
+    color: #ff007f;
+}
+
+.controls {
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    background-color: #ff9966;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #ff5e62;
+}
