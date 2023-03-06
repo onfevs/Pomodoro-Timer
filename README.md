@@ -2,7 +2,7 @@
 Este proyecto ha sido desarrollado utilizando HTML, CSS y JavaScript. El diseño es responsivo y funciona bien en dispositivos móviles y de escritorio. El Pomodoro Timer es una herramienta ideal para estudiantes, profesionales, o cualquier persona que quiera mejorar su productividad y gestionar mejor su tiempo.
 
 
-![Temporizador de cuenta regresiva](./screenshot.png)
+![Temporizador de cuenta regresiva](![image](https://user-images.githubusercontent.com/29380120/223227074-8a417a6a-e60a-43db-893b-20deb6570dfd.png))
 
 ## Características
 
@@ -27,7 +27,7 @@ Si deseas personalizar el temporizador, puedes ajustar los estilos CSS en el arc
 
 ## Créditos
 
-Este proyecto fue creado por [OnfeVS](https://tu-sitio-web.com).
+Este proyecto fue creado por [OnfeVS](https://onfevs.github.io/Pomodoro-Timer/).
 
 ## Licencia
 
